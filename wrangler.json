@@ -1,0 +1,15 @@
+{
+  "name": "i-will-go-on",
+  // "account_id": "jA7eGPWnr2LC5cw7UBu5xQj6JisqegLTtt8ASzNu",
+  "compatibility_date": "2025-02-21",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "./dist/_worker.js/index.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "upload_source_maps": true
+}
