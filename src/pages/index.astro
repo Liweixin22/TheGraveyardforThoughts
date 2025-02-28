@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import Introduce from '../components/Introduce';
 ---
 
 <!doctype html>
@@ -13,32 +14,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 	<body>
 		<Header />
-		<main>
-			<h1 class="header">🪦The Graveyard for Thoughts!</h1>
-			<blockquote class="fancy-quote">
-			    April is the cruellest month, breeding<br>
-			    Lilacs out of the dead land, mixing<br>
-			    Memory and desire, stirring<br>
-			    Dull roots with spring rain.
-			</blockquote>
-		<p> Hi folks, welcome to the graveyard for thoughts.<br> 
-		    This is a place where I bury my thoughts, ideas, and mindsets that I have learned from books, podcasts, and other sources.<br>
-		    Maybe no one else will read this.<br>
-		    but maybe someday you will pass by the graveyard<br>
-			and find something useful for you.<br>
-		    And maybe, in the cruellest April, the lilacs will bloom out of that dead land.<br>
-		</p>
-		</main>
+		<Introduce />
 		<Footer />
 	</body>
 </html>
-
-<style>
-  .header{
-	font-size: 38px
-  }
-  .fancy-quote {
-    font-style: italic;
-	font-size: 20px
-  }
-</style>
